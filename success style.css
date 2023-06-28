@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    background-color: #242742;
+    min-height: 100vh;
+    place-content: center;
+
+}
+#success-message {
+    background-color:white;
+    width:480px;
+    height:480px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#content {
+    padding: 30px;
+}
+
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+#text-success {
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+#dismiss-btn  {
+    color:white;
+    background-color: #242742 ;
+    border: none;
+    padding: 5px;
+    width:350px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+#dismiss-btn:hover {
+    background-color:  #242742;
+}
+
+#dismiss-btn:focus,
+#dismiss-btn:active {
+    background-color:#ff6257;
+    transition: none;
+}

@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    background-color: #242742;
+    min-height: 100vh;
+    place-content: center;
+
+}
+
+/*--- desktop view---*/
+
+#newsletter {
+    display:flex;
+    background-color: white;
+    padding:20px 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 900px;
+    height: 660px;
+
+}
+#section-left {
+    padding:30px 60px 30px 30px;
+    width: 55%;
+    height: 100%;
+
+}
+.header {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+#text-p {
+    text-align: left;
+    position: relative;
+    left:15px;
+}
+ul {
+    list-style: none;
+    position: relative;
+    right:10px;
+}
+#list-icon {
+    margin-right:10px;
+    vertical-align: middle;
+}
+
+#section-right {
+    position: relative;
+    right: 20px;
+    width: 45%;
+    height: 100%;
+
+}
+#desktop-img {
+    display: flex;
+}
+#mobile-img {
+    display: none;
+}
+label {
+    font-weight: 700;
+}
+#email,#sub-button {
+    border-radius:10px;
+    outline: none;
+}
+#email {
+    margin-bottom:30px;
+    margin-top: 10px;
+    padding-left: 20px;
+    height:40px;
+    width:330px;
+    border:1px solid;
+}
+
+#sub-button {
+    height:45px;
+    width:350px;
+    color: white;
+    background-color: #36384e;
+    cursor:pointer;
+    border:none;
+    transition: all 10s ease-in-out;
+}
+#sub-input {
+    position: relative;
+    left:20px;
+    margin-top: 50px;
+}
+#sub-button:active, #sub-button:hover {
+    background-color:#ff6257
+}
+
+
+
